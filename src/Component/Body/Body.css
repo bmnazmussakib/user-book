@@ -1,0 +1,11 @@
+.body-container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+.user-container {
+    width: 70%;
+}
+.cart-container {
+    width: 30%;
+}

@@ -1,0 +1,29 @@
+.user-container {
+    
+}
+.single-user {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px;
+    width: 45%;
+}
+.single-user h2{
+    color: rgb(3, 148, 231);
+}
+.single-user button{
+    background-color: rgb(3, 148, 231);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgb(2, 133, 209);
+    cursor: pointer;
+    transition: all 0.5s;
+}

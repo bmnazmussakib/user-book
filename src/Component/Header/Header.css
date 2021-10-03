@@ -1,0 +1,38 @@
+.header-container{
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.logo{
+    margin-bottom: 30px;
+}
+.main-menu{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.main-menu ul{
+    display: flex;
+}
+.main-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.main-menu ul li:hover{
+    background-color: rgb(3, 148, 231);
+    transition: 0.5s;
+    color: white;
+}
+.main-menu ul li:hover a{
+    color: white;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3, 148, 231);
+}
